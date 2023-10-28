@@ -9,4 +9,6 @@ In this assignment i have been tasked to create an everyday object in javascript
 - Array - Used to list the content of the stored items in the fridge
 - Function - Used to show the list of arrays
 
-(images\screenshot.png)
+<p align="center">
+  <img width="500" height="100%" src="/images/screenshot.png">
+</p>
