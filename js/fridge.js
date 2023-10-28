@@ -11,8 +11,6 @@ const fridge = {
     items.forEach(function (item) {
       console.log(item);
     });
-    /*const fridgeContainer = document.getElementById("fridge-container");
-    fridgeContainer.innerHTML = JSON.stringify(fridge);*/
   },
 };
 
