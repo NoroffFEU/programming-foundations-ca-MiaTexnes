@@ -9,6 +9,10 @@ In this assignment i have been tasked to create an everyday object in javascript
 - Array - Used to list the content of the stored items in the fridge
 - Function - Used to show the list of arrays
 
+Link to active site
+(https://programming-fondations-mia.netlify.app/)
+
 <p align="center">
   <img width="800" height="100%" src="/images/screenshot.png">
 </p>
+
