@@ -2,3 +2,31 @@ body {
 	font-family: sans-serif;
 	padding: 1em 3em;
 }
+.header {
+	text-align: center;
+}
+button {
+	margin-right: 35px;
+}
+
+#fridge {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+ .on {
+            background-color: green;
+        }
+        .off {
+            background-color: red;
+        }
+        .button {
+            width: 50px;
+            height: 30px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+        }
+		

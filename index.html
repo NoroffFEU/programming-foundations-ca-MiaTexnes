@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My fridge</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,=" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Foundations CA</title>
-    <link href='css/style.css' rel='stylesheet' />
-    <link rel='icon' href='data:;base64,=' />
-</head>
+  <body>
+    <h1 class="header">My fridge</h1>
+    <div id="fridge">
+      <video
+        id="fridgeanimation"
+        width="320"
+        height="240"
+        src="images/fridge.mp4"
+        type="video/mp4"
+      ></video>
+      <button id="videoButton">Click to open</button>
+    </div>
+    <div id="fridge-container"></div>
 
-<body>
-
-    <script src="js/script.js"></script>
-</body>
-
+    <script src="js/fridge.js"></script>
+  </body>
 </html>
