@@ -10,5 +10,5 @@ In this assignment i have been tasked to create an everyday object in javascript
 - Function - Used to show the list of arrays
 
 <p align="center">
-  <img width="500" height="100%" src="/images/screenshot.png">
+  <img width="800" height="100%" src="/images/screenshot.png">
 </p>
