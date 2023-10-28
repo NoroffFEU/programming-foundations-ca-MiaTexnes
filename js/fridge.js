@@ -21,3 +21,4 @@ function animateVideo() {
 const videoButton = document.getElementById("videoButton");
 videoButton.addEventListener("click", animateVideo);
 videoButton.addEventListener("click", fridge.liststoredItems);
+console.log(fridge);

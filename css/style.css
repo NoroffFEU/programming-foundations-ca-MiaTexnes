@@ -2,11 +2,17 @@ body {
 	font-family: sans-serif;
 	padding: 1em 3em;
 }
+
 .header {
 	text-align: center;
 }
+
+ul {
+    list-style: none;
+}
+
 button {
-	margin-right: 35px;
+    margin:10px 35px 10px 0;
 }
 
 #fridge {
@@ -14,19 +20,17 @@ button {
 	flex-direction: column;
 	align-items: center;
  }
- .on {
-            background-color: green;
-        }
-        .off {
-            background-color: red;
-        }
-        .button {
-            width: 50px;
-            height: 30px;
-            border-radius: 5px;
-            color: white;
-            font-weight: bold;
-            text-align: center;
-            cursor: pointer;
-        }
-		
+
+.fridge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #fcde71;
+    border-radius: 40px;
+    margin-top: 10px;
+    text-align: left;
+    flex-basis: 0.2%;
+}
+.fridge p {
+    text-align: center;
+}
