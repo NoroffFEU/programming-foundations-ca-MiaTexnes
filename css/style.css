@@ -2,3 +2,35 @@ body {
 	font-family: sans-serif;
 	padding: 1em 3em;
 }
+
+.header {
+	text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    margin:10px 35px 10px 0;
+}
+
+#fridge {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+
+.fridge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #fcde71;
+    border-radius: 40px;
+    margin-top: 10px;
+    text-align: left;
+    flex-basis: 0.2%;
+}
+.fridge p {
+    text-align: center;
+}

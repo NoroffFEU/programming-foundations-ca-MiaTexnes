@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My fridge</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,=" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Foundations CA</title>
-    <link href='css/style.css' rel='stylesheet' />
-    <link rel='icon' href='data:;base64,=' />
-</head>
+  <body>
+    <h1 class="header">My fridge</h1>
+    <div id="fridge">
+      <video
+        id="fridgeanimation"
+        width="320"
+        height="240"
+        src="images/fridge.mp4"
+        type="video/mp4"
+      ></video>
+      <button id="videoButton">Click to open</button>
+    </div>
+    <div class="fridge">
+      <div>
+        <h2>Name</h2>
+        <p>Electrolux 2000</p>
+      </div>
+      <div>
+        <h2>Volume</h2>
+        <p>1300</p>
+      </div>
+      <div>
+        <h2>Colour</h2>
+        <p>Yellow</p>
+      </div>
+      <div>
+        <h2>Manufacture year</h2>
+        <p>2008</p>
+      </div>
+      <div>
+        <h2>Number of shelves</h2>
+        <p>10</p>
+      </div>
+      <div>
+        <h2>Stored items</h2>
+        <ul>
+          <li>Fruits</li>
+          <li>Vegetables</li>
+          <li>Meat</li>
+          <li>Youghurt</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Temperature adjustment</h2>
+        <p>Yes</p>
+      </div>
+    </div>
 
-<body>
-
-    <script src="js/script.js"></script>
-</body>
-
+    <script src="js/fridge.js"></script>
+  </body>
 </html>
